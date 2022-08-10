@@ -1,0 +1,15 @@
+GET  http://localhost:5000/api/movies/seed
+
+
+// Lấy tất cả danh sách product
+###
+GET  http://localhost:5000/api/movies
+###
+
+POST  http://localhost:5000/api/movies/like/62f0daf1549672b0b0e9a22b
+Content-Type: application/json
+
+{
+    "userId":"62d6d2999dac26b9f3c3e2b3"
+}
+###
